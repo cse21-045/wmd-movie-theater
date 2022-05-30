@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Categories</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<link rel="stylesheet" type="text/css" href="layout.css">
+<link rel="stylesheet" type="text/css" href="menu.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+</style>
+</head>
+<body>
+    <header>
+	 <h1 style="text-align:center; color:#rrggbb;">
+	    Rising to the Occasion
+	</h1>
+	   <p style="text-align:center">
+			     Unlimited Movies...Willies got you
+			 </p>
+	 <a href="index.html"><img src="logo.png"></a>
+	
+	</header>
+       <nav>
+	        <ul>
+		         <li><a class="active" href="index.html" style="color:green;"><i class="fa fa-fw fa-home"></i></a>
+				 <li><a href="Categories.html">Categories</a></li>
+				 <li><a href="Movies.html">Movies</a></li>
+				 <li><a href="Upcoming.html">Upcoming</a></li>
+				 <li><a href="Contacts.html">Contacts</a></li>
+				 <li><a href="Feedback.html">Feedback</a></li>
+
+		  </ul>		   
+	   </nav>
+	   
+	   <article>
+	            <p style="text-align:center; font-size:28px;"><b>Action / Adventure</b></p>  
+   				     <div class="row">
+				         <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						   <p>$250</p>
+				              <a href="form.html"><img src="Fast 9.jpg" style="width:100%" alt="Fast 9"></a>
+							  							  <a href="https://youtu.be/_qyw6LC5pnE" target="_blank"><p>Trailer</p></a>
+														   <p>2022</p>
+														  <p>Vin Diesel, John Cena, Mitchell Rodriguez<br>Ludacris more.. </p>
+				         </div>
+				 
+				         <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						   <p>$200</p>
+				               <a href="form.html"><img src="Operation fortune.jpg" style="width:100%" alt="Operation Fortune"></a>
+							   							  <a href="https://youtu.be/W8Sqk1GcqxY" target="_blank"><p>Trailer</p></a>
+														  <p>2022</p>
+														  <p>Jason Statham, Aubrey Plaza, Hugh Grant<br>Eddie Marsan more..</p>
+				         </div>
+				 
+				         <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						    <p>$100</p>
+				               <a href="form.html"><img src="Black light.jpg" style="width:100%" alt="Black Light"></a>
+							   							  <a href="https://youtu.be/PE04ESdgnHI" target="_blank"><p>Trailer</p></a>
+														  <p>2022</p>
+														  <p>Liam Neeson, Adian Quinn, Taylor John Smith<br>Georgia Floods more.. </p>
+				         </div>
+				 
+				         <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						   <p>$150</p>
+				               <a href="form.html"><img src="Ambulance.jpg" style="width:100%" alt="Ambulance"></a>
+							   							  <a href="https://youtu.be/7NU-STboFeI" target="_blank"><p>Trailer</p></a>
+														  <p>2022</p>
+														  <p>Jake Glyllenhaal, Yahya Abdul-Mateen II, Eiza Gonzalez<br>Keir O'Donnell more..</p>
+				         </div>
+					 </div>				
+		         
+				 <br>
+				 
+				 <p style="text-align: center; font-size:28px;"><b>Scifi / Horror</p>
+				     <div class="row">
+				         <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a> 
+						     <p>$200</p>
+				              <a href="form.html"><img src="Adam project.jpg" style="width:100%" alt="The Adam project"></a>
+							  							  <a href="https://youtu.be/IE8HIsIrq4o" target="_blank"><p>Trailer</p></a>
+														   <p>2022</p>
+														  <p>Ryan Reynolds, Zoe Soldana, Walker Scobell <br>Mark Ruffallo more.. </p>
+				         </div>
+				 
+				         <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						    <p>$100</p>
+				               <a href="form.html"><img src="Venom.jpg" style="width:100%" alt="Venom Let There Be Carnage"></a>
+							   							  <a href="https://youtu.be/-FmWuCgJmxo" target="_blank"><p>Trailer</p></a>
+														  <p>2021</p>
+														  <p>Tom Hardy, Naomie Harris, Michelle Williams <br> Woody Harrelson more..</p>
+				         </div>
+				 
+				         <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						   <p>$150</p>
+				               <a href="form.html"><img src="Doctor strange.jpg" style="width:100%" alt="Doctor Strange In The Multiverse Of Madness"></a>
+							   							  <a href="https://youtu.be/aWzlQ2N6qqg" target="_blank"><p>Trailer</p></a>
+														  <p>2021</p>
+														  <p>Bennedict Cumbertch, Elizabeth Olsen, Patrick Stewart<br>Josh Broslin more.. </p>
+				         </div>
+				 
+				         <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						     <p>$100</p>
+				               <a href="form.html"><img src="Morbius.jpg" style="width:100%" alt="Morbius"></a>
+							   							  <a href="https://youtu.be/oZ6iiRrz1SY" target="_blank"><p>Trailer</p></a>
+														  <p>2022</p>
+														  <p>Jared Leto, Matt Smith, Tyresse Gibson <br> Adria Arjona more..</p>
+				         </div>
+					 </div>
+					 
+				 
+				 <br>
+				 
+				 <p style="text-align: center; font-size:28px">Comedy</p>
+				    <div class="row">
+					      <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						   <p>$100</p>
+				              <a href="form.html"><img src="Free guy.jpg" style="width:100%" alt="Free guy"></a>
+							  							  <a href="https://youtu.be/X2m-08cOAbc" target="_blank"><p>Trailer</p></a>
+														  <p>2021</p>
+														  <p>Ryan Reynolds, Jodie Comer, Joe keery<br> John Krasinsk more..</p>
+				         </div>
+						 
+						  <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						   <p>$150</p>
+				              <a href="form.html"><img src="Madea.jpg" style="width:100%" alt="A Madea Home coming"></a>
+							  							  <a href="https://youtu.be/jBgnMIZPf9M" target="_blank"><p>Trailer</p></a>
+														  <p>2021</p>
+														  <p>Tyler Perry, Brendan O'Carroll,<br>Candice Maxwell more..</p>
+				         </div>
+						 
+						  <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						   <p>$250</p>
+				              <a href="form.html"><img src="infinite.jpg" style="width:100%" alt="Infinite"></a>
+							  							  <a href="https://youtu.be/_WWEOCQGxSw" target="_blank"><p>Trailer</p></a>
+														  <p>2021</p>
+														  <p>Mark Wahlberg, Chiwetel Ejiofor, Liz Carr<br> Sophie Cookson more..</p>
+				         </div>
+						 
+						  <div class="column">
+						   <a href="form.html"><p>BUY TICKET</p><a>
+						   <p>$200</p>
+				              <a href="form.html"><img src="Bad Boys.jpg" style="width:100%" alt="Bad Boys For Life"></a>
+							  							  <a href="https://youtu.be/jKCj3XuPG8M" target="_blank"><p>Trailer</p></a>
+														  <p>2020</p>
+														  <p>Will Smith, Martin Lawrence, Paula Nunez <br> Joe Pontaliano</p>
+							  
+				         </div>
+					 </div>
+				 
+			    
+	         	
+	   </article>
+	   <br>
+	   <div class="clear-both">
+		<footer style="text-align:center">
+		     <p>Copyright © 2022 Willies Theater, Inc. - All Rights Reserved</p>
+		</footer>
+		<div>
+	    
+</body>
+</html>
